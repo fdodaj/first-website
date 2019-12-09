@@ -1,0 +1,138 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: lightgray;
+}
+/* global */
+.contanier{
+    width:80%;
+    margin: auto;
+    overflow: hidden;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+.button-1{
+    height: 37px;
+    background: #e8491d;
+    border: none;
+    padding-left:20px ;
+    padding-right: 20px;
+    color: #ffffff;
+}
+.button-1:hover{
+    font-size: bold;
+    background: orange;
+    transition: 0.5s;
+    
+}
+/* header*/
+header{
+    background: #35424a;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom:#c9b6b1 3px  solid;
+}
+header a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+
+
+header li{
+    float: left;
+    list-style-type: none;
+   
+    padding: 0 20px 0 20px;
+} 
+
+header .branding{
+    float: left;
+}
+
+header .branding h1{
+    margin: 0;
+}
+
+
+
+header nav{
+    float: right;
+    margin-top: 10 px;
+    padding-top: 12px;
+}
+header .high,header .current a{
+    color: #e8491d;
+    font-weight: bold;
+}
+header a:hover{
+    color: #cccccc;
+    font-weight: bold;
+}
+/* showcase*/
+#showcase{
+    min-height: 400px;
+    background-image: url("../img/showcase.jpg"); 
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-position: 0 -300px;
+    text-align: center;
+    color: white;
+
+}
+#showcase h1{
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+#showcase p{
+font-size: 20px;
+}
+#newsletter{
+    padding: 15px;
+    color: white;
+    background: #35424a;
+}
+
+#newsletter h1{
+float: left;
+}
+#newsletter form{
+    float: right;
+    margin-top: 15px ;
+}
+  
+#newsletter input[type="email"]{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+.subscribe{
+    display: flex;
+    padding-top: 15px;
+}
+
+.box{
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: papayawhip;
+    padding: 10px;
+    text-decoration: none;
+
+}
+.footer{
+    text-align: center;
+    background-color: darkgray;
+    margin: 0px;
+    padding-bottom: 0px;
+}
